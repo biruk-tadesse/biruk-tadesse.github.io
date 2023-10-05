@@ -13,8 +13,7 @@ const FeedbackCard = ({ data }) => {
 							<h5 className="mb-2">{data.certificationName}</h5>
 							<p className="mb-2">{data.issueDate}</p>
               <p className="mb-2">{data.link}</p>
-						</div>
-            {FeedbackCard.url && (
+              {FeedbackCard.url && (
 				<Button
 					className="btn-icon-only rounded-circle"
 					color="twitter"
@@ -28,6 +27,7 @@ const FeedbackCard = ({ data }) => {
 					</span>
 				</Button>
 			)}
+						</div>
 					</div>
 				</CardBody>
 			</Card>
