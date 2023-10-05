@@ -200,26 +200,32 @@ export const feedbacks = [
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Data Science Professional",
     issueDate: "19/09/2023",
+    link: <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=CABE57EB0CBE8F34A57229DCAA6B7652225DF6C200776FF432BD862CB84A24C0"><strong>View</strong></a>,
   },
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified DevOps Professional",
     issueDate: "18/09/2023",
+    link: <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=C6AE2F0EAE290EC8B92EEB75F4BFC51F5FA95CD86D427B0FF00316E5E57CDE13"><strong>View</strong></a>,
   },
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Developer Professional",
     issueDate: "17/09/2023",
+    link: <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=25B4C4B4E9D8C72AF9D3FF320105A456296A4D84D987AF7B2BB50A46199FA10E"><strong>View</strong></a>,
   },
   {
     certificationName: "ALX Software Engineering Programme ┊ Back End Development",
     issueDate: "19/09/2023",
+    link: <a href="https://drive.google.com/file/d/1CY57JY5kyw7E4cdzOMmwl78r0uvNj311/view?usp=sharing"><strong>View</strong></a>,
   },
   {
     certificationName: "Artificial Intelligence Analyst Mastery Award",
     issueDate: "14/12/2019",
+    link: <a href="https://www.credly.com/badges/0e13a1b3-ff97-49d0-81f1-a8e249a14645/public_url"><strong>View</strong></a>,
   },
   {
     certificationName: "Big Data Engineer on Cloud Mastery Award",
     issueDate: "12/10/2019",
+    link: <a href="https://www.credly.com/badges/58be4851-64ef-49f7-8c28-22157fec52eb/public_url"><strong>View</strong></a>,
   },
 
 ];
