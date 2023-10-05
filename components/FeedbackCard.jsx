@@ -14,6 +14,20 @@ const FeedbackCard = ({ data }) => {
 							<p className="mb-2">{data.issueDate}</p>
               <p className="mb-2">{data.link}</p>
 						</div>
+            {FeedbackCard.url && (
+				<Button
+					className="btn-icon-only rounded-circle"
+					color="twitter"
+					href={FeedbackCard.url}
+					target="_blank"
+					rel="noopener"
+					aria-label="View"
+				>
+					<span className="btn-inner--icon">
+						<i className="fa fa-twitter" />
+					</span>
+				</Button>
+			)}
 					</div>
 				</CardBody>
 			</Card>
