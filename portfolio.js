@@ -102,6 +102,10 @@ export const skillsSection = {
           fontAwesomeClassname: "logos:microsoft-azure",
         },
         {
+          skillName: "Oracle",
+          fontAwesomeClassname: "logos:oracle",
+        },
+        {
           skillName: "Heroku",
           fontAwesomeClassname: "logos:heroku-icon",
         },
