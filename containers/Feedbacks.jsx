@@ -1,7 +1,7 @@
 import { feedbacks } from "../portfolio";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import FeedbackCard from "../components/CertificationsCard";
+import FeedbackCard from "../components/FeedbackCard";
 import { Fade } from "react-reveal";
 
 const Feedbacks = () => {
@@ -34,4 +34,4 @@ const Feedbacks = () => {
 	);
 };
 
-export default Certifications;
+export default Feedbacks;
