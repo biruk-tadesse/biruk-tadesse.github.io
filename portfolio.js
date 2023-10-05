@@ -187,6 +187,39 @@ export const experience = [
   },
 ];
 
+export const certificatesData = [
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Associate",
+    issueDate: "29/09/2023",
+  },
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified Data Science Professional",
+    issueDate: "19/09/2023",
+  },
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified DevOps Professional",
+    issueDate: "18/09/2023",
+  },
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified Developer Professional",
+    issueDate: "17/09/2023",
+  },
+  {
+    certificationName: "ALX Software Engineering Programme Back End Development",
+    issueDate: "19/09/2023",
+  },
+  {
+    certificationName: "Artificial Intelligence Analyst Mastery Award",
+    issueDate: "14/12/2019",
+  },
+  {
+    certificationName: "Big Data Engineer on Cloud Mastery Award",
+    issueDate: "12/10/2019",
+  },
+  
+];
+
+
 export const projects = [
   {
     name: "Contact me",
