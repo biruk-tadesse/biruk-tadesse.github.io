@@ -179,6 +179,56 @@ export const educationInfo = [
 
 ];
 
+import React from "react";
+
+const certificatesData = [
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Associate",
+    issueDate: "March 2023",
+  },
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified Data Science Professional",
+    issueDate: "April 2023",
+  },
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified DevOps Professional",
+    issueDate: "May 2023",
+  },
+  {
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified Developer Professional",
+    issueDate: "June 2023",
+  },
+  {
+    certificationName: "ALX Software Engineering Programme Back End Development",
+    issueDate: "July 2023",
+  },
+  {
+    certificationName: "Artificial Intelligence Analyst Mastery Award",
+    issueDate: "August 2023",
+  },
+  {
+    certificationName: "Big Data Engineer on Cloud Mastery Award",
+    issueDate: "September 2023",
+  },
+];
+
+const ProfessionalCertificationsSection = ({ certificatesData }) => {
+  return (
+    <div>
+      <h3>Professional Certifications</h3>
+      {certificatesData.map((certification, index) => (
+        <div key={index}>
+          <h5>{certification.certificationName}</h5>
+          <p>Issue Date: {certification.issueDate}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default ProfessionalCertificationsSection;
+
+
 export const experience = [
   {
     role: "Specialist (Full time)",
