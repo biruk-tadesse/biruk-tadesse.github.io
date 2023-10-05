@@ -170,12 +170,6 @@ export const educationInfo = [
     duration: "November 2015 - March 2018",
     desc: "https://bit.bdu.edu.et/",
   },
-  {
-    schoolName: "ALX",
-    subHeader: "Software Engineering Programme with a specialization in Back End Development",
-    duration: "March 2022 - May 2023",
-    desc: "https://www.alxafrica.com/",
-  },
 
 ];
 
@@ -200,32 +194,32 @@ export const feedbacks = [
 
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Associate",
-    issueDate: "March 2023",
+    issueDate: "29/09/2023",
     clickHere: "View"
   },
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Data Science Professional",
-    issueDate: "April 2023",
+    issueDate: "19/09/2023",
   },
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified DevOps Professional",
-    issueDate: "May 2023",
+    issueDate: "18/09/2023",
   },
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Developer Professional",
-    issueDate: "June 2023",
+    issueDate: "17/09/2023",
   },
   {
-    certificationName: "ALX Software Engineering Programme Back End Development",
-    issueDate: "July 2023",
+    certificationName: "ALX Software Engineering Programme ┊ Back End Development",
+    issueDate: "19/09/2023",
   },
   {
     certificationName: "Artificial Intelligence Analyst Mastery Award",
-    issueDate: "August 2023",
+    issueDate: "14/12/2019",
   },
   {
     certificationName: "Big Data Engineer on Cloud Mastery Award",
-    issueDate: "September 2023",
+    issueDate: "12/10/2019",
   },
 
 ];
