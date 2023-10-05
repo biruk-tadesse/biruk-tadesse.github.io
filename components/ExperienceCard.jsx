@@ -45,7 +45,7 @@ const ExperienceCard = ({ data }) => {
 						<CardSubtitle>{data.date}</CardSubtitle>
 						<CardText
 							tag="div"
-							className="description my-3 text-left"
+							className="mb-2"
 						>
 							{data.desc}
 							<ul>
