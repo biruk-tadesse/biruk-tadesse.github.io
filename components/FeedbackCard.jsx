@@ -12,7 +12,7 @@ const FeedbackCard = ({ data }) => {
 						<div className="pl-4">
 							<h5 className="mb-2">{data.certificationName}</h5>
 							<p className="mb-2">{data.issueDate}</p>
-              <p className="mb-2">{data.clickHere}</p>
+              <p className="mb-2">{data.link}</p>
 						</div>
 					</div>
 				</CardBody>
