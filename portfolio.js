@@ -179,9 +179,25 @@ export const educationInfo = [
 
 ];
 
-import React from "react";
+export const experience = [
+  {
+    role: "Specialist (Full time)",
+    company: "Safaricom",
+    companylogo: "/img/icons/common/safari.jpeg",
+    date: "December 2022 – Now",    
+  },
+];
 
-const certificatesData = [
+export const projects = [
+  {
+    name: "Contact me",
+    link: "mailto:biruk.tadesse@outlook.com",
+  },
+];
+
+export const feedbacks = [
+
+
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Associate",
     issueDate: "March 2023",
@@ -210,42 +226,6 @@ const certificatesData = [
     certificationName: "Big Data Engineer on Cloud Mastery Award",
     issueDate: "September 2023",
   },
-];
-
-const ProfessionalCertificationsSection = ({ certificatesData }) => {
-  return (
-    <div>
-      <h3>Professional Certifications</h3>
-      {certificatesData.map((certification, index) => (
-        <div key={index}>
-          <h5>{certification.certificationName}</h5>
-          <p>Issue Date: {certification.issueDate}</p>
-        </div>
-      ))}
-    </div>
-  );
-};
-
-export default ProfessionalCertificationsSection;
-
-
-export const experience = [
-  {
-    role: "Specialist (Full time)",
-    company: "Safaricom",
-    companylogo: "/img/icons/common/safari.jpeg",
-    date: "December 2022 – Now",    
-  },
-];
-
-export const projects = [
-  {
-    name: "Contact me",
-    link: "mailto:biruk.tadesse@outlook.com",
-  },
-];
-
-export const feedbacks = [
 
 ];
 
