@@ -24,7 +24,6 @@ export default function Home({ githubProfileData }) {
       <Skills />
       <Proficiency />
       <Education />
-      <Certificates />
       <Experience />
       <Projects />
       {/* <Feedbacks /> */}
