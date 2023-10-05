@@ -25,6 +25,7 @@ export default function Home({ githubProfileData }) {
       <Proficiency />
       <Education />
       <Experience />
+      <Feedbacks />
       <Projects />
       {/* <Feedbacks /> */}
       {/* {showContactUs ? <Contact /> : null} */}
