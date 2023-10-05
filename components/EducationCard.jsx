@@ -22,7 +22,7 @@ const EducationCard = ({ education }) => {
 									{education.grade}
 								</Badge>
 							)}
-							<p className="description mt-3">{education.desc}</p>
+							<p className="mb-2">{education.desc}</p>
 							<ul>
 								{education.descBullets
 									? education.descBullets.map((desc) => {
