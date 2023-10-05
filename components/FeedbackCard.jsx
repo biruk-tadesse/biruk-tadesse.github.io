@@ -10,8 +10,9 @@ const FeedbackCard = ({ data }) => {
 				<CardBody>
 					<div className="d-flex px-3">
 						<div className="pl-4">
-							<h5 className="text-info">{data.certificationName}</h5>
-							<p className="text-info">{data.issueDate}</p>
+							<h5 className="mb-2">{data.certificationName}</h5>
+							<p className="mb-2">{data.issueDate}</p>
+              <p className="mb-2">{data.clickHere}</p>
 						</div>
 					</div>
 				</CardBody>
