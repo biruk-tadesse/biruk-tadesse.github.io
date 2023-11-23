@@ -196,9 +196,9 @@ export const feedbacks = [
 
 
   {
-    certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Associate",
+    certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Professional",
     issueDate: "29/09/2023",
-    link: <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=FED806B904D20C10BBDD683F16FF8A8DD235FDCA1AC4D75EBABC24FBB7A56573" target="_blank"><strong>View</strong></a>,
+    link: <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=C298C28BC33BF5AD91405818FFC6F5EBD75E8610002F040D650086BA8715E00E" target="_blank"><strong>View</strong></a>,
   },
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Data Science Professional",
