@@ -253,7 +253,7 @@ export const feedbacks = [
   {
     certificationName: "ALX Software Engineering Programme ┊ Back End Development",
     issueDate: "19/09/2023",
-    link: <a href="https://drive.google.com/file/d/1CY57JY5kyw7E4cdzOMmwl78r0uvNj311/view?usp=sharing" target="_blank"><strong>View</strong></a>,
+    link: <a href="https://intranet.alxswe.com/certificates/fRr63TxcFC" target="_blank"><strong>View</strong></a>,
   },
   {
     certificationName: "Artificial Intelligence Analyst Mastery Award",
