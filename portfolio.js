@@ -196,6 +196,41 @@ export const feedbacks = [
 
 
   {
+    certificationName: "Meta Front-End Developer Certificate",
+    issueDate: "17/12/2023",
+    link: <a href="https://www.credly.com/badges/c7b59515-9d3d-4ea3-ae2f-14ce3fad7cbf/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "Meta Back-End Developer Certificate",
+    issueDate: "17/12/2023",
+    link: <a href="https://www.credly.com/badges/bc079cd5-cda3-4e83-bf9f-3927a02b94a0/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "Google Project Management Certificate",
+    issueDate: "08/12/2023",
+    link: <a href="https://www.credly.com/badges/3a52fe9f-da36-493e-8f18-c1b89b5d198d/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "Google Data Analytics Certificate",
+    issueDate: "17/12/2023",
+    link: <a href="https://www.credly.com/badges/27c1b82e-e1b7-4681-9c5b-4e5ffe97d72c/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "Google Digital Marketing & E-commerce Certificate",
+    issueDate: "17/12/2023",
+    link: <a href="https://www.credly.com/badges/233b52cd-6c7c-401d-aaab-f75d00dbc4fe/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "Google Cybersecurity Certificate",
+    issueDate: "17/12/2023",
+    link: <a href="https://www.coursera.org/account/accomplishments/specialization/AQH43CSB2RUS" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "AWS Fundamentals Certificate",
+    issueDate: "13/12/2023",
+    link: <a href="https://www.coursera.org/account/accomplishments/specialization/DWPQCEWFYYPC" target="_blank"><strong>View</strong></a>,
+  },
+  {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Professional",
     issueDate: "29/09/2023",
     link: <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=C298C28BC33BF5AD91405818FFC6F5EBD75E8610002F040D650086BA8715E00E" target="_blank"><strong>View</strong></a>,
