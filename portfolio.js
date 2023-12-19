@@ -252,7 +252,7 @@ export const feedbacks = [
   },
   {
     certificationName: "ALX Software Engineering Programme ┊ Back End Development",
-    issueDate: "19/09/2023",
+    issueDate: "29/11/2023",
     link: <a href="https://intranet.alxswe.com/certificates/fRr63TxcFC" target="_blank"><strong>View</strong></a>,
   },
   {
