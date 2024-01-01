@@ -231,9 +231,14 @@ export const feedbacks = [
     link: <a href="https://www.coursera.org/account/accomplishments/specialization/AQH43CSB2RUS" target="_blank"><strong>View</strong></a>,
   },
   {
-    certificationName: "AWS Fundamentals Certificate",
+    certificationName: "Google Cloud Database Engineer Certificate",
+    issueDate: "17/12/2023",
+    link: <a href="https://www.coursera.org/account/accomplishments/specialization/HH9SU4HJT794" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "AWS Cloud Solutions Architect Certificate",
     issueDate: "13/12/2023",
-    link: <a href="https://www.coursera.org/account/accomplishments/specialization/DWPQCEWFYYPC" target="_blank"><strong>View</strong></a>,
+    link: <a href="https://www.coursera.org/account/accomplishments/specialization/QKXD5SVGXC7B" target="_blank"><strong>View</strong></a>,
   },
   {
     certificationName: "Oracle Cloud Infrastructure 2023 Certified Architect Professional",
