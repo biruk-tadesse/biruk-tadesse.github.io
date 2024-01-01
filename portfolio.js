@@ -221,6 +221,11 @@ export const feedbacks = [
     link: <a href="https://www.credly.com/badges/27c1b82e-e1b7-4681-9c5b-4e5ffe97d72c/public_url" target="_blank"><strong>View</strong></a>,
   },
   {
+    certificationName: "Google IT Support Certificate",
+    issueDate: "25/12/2023",
+    link: <a href="https://www.credly.com/badges/8fcf9f8c-04f1-4d6d-98b2-b138fb151272/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
     certificationName: "Google Digital Marketing & E-commerce Certificate",
     issueDate: "17/12/2023",
     link: <a href="https://www.credly.com/badges/233b52cd-6c7c-401d-aaab-f75d00dbc4fe/public_url" target="_blank"><strong>View</strong></a>,
@@ -232,12 +237,12 @@ export const feedbacks = [
   },
   {
     certificationName: "Google Cloud Database Engineer Certificate",
-    issueDate: "17/12/2023",
+    issueDate: "25/12/2023",
     link: <a href="https://www.coursera.org/account/accomplishments/specialization/HH9SU4HJT794" target="_blank"><strong>View</strong></a>,
   },
   {
     certificationName: "AWS Cloud Solutions Architect Certificate",
-    issueDate: "13/12/2023",
+    issueDate: "25/12/2023",
     link: <a href="https://www.coursera.org/account/accomplishments/specialization/QKXD5SVGXC7B" target="_blank"><strong>View</strong></a>,
   },
   {
