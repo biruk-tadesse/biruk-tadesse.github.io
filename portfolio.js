@@ -196,14 +196,9 @@ export const feedbacks = [
 
 
   {
-    certificationName: "Meta Front-End Developer Certificate",
-    issueDate: "17/12/2023",
-    link: <a href="https://www.credly.com/badges/c7b59515-9d3d-4ea3-ae2f-14ce3fad7cbf/public_url" target="_blank"><strong>View</strong></a>,
-  },
-  {
-    certificationName: "Meta Back-End Developer Certificate",
-    issueDate: "17/12/2023",
-    link: <a href="https://www.credly.com/badges/bc079cd5-cda3-4e83-bf9f-3927a02b94a0/public_url" target="_blank"><strong>View</strong></a>,
+    certificationName: "Meta Full-Stack Engineer Certificate",
+    issueDate: "11/01/2024",
+    link: <a href="https://www.credly.com/badges/98f07028-044a-4b02-8cbc-2b0c6193b0e9/public_url" target="_blank"><strong>View</strong></a>,
   },
   {
     certificationName: "Meta Database Engineer Certificate",
