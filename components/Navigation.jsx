@@ -171,7 +171,7 @@ const Navigation = () => {
 											target="_blank"
 											>
 											<span className="credly-icon" style={{ fontFamily: 'cursive' }}>
-												<strong>c</strong>
+												<strong>C</strong>
 											</span>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Credly
