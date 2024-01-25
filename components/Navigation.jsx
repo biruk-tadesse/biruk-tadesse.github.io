@@ -138,7 +138,7 @@ const Navigation = () => {
 											href={socialLinks.credly}
 											target="_blank"
 										>
-											<span className="credly-icon">C</span>
+											<span className="credly-icon"><strong>C</strong></span>
             								<span className="nav-link-inner--text d-lg-none ml-2">
                 							Credly
 											</span>
