@@ -138,9 +138,9 @@ const Navigation = () => {
 											href={socialLinks.credly}
 											target="_blank"
 										>
-											<i className="fa fa-credly-icon" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Credly
+											<img src="credly.png" alt="Credly" className="credly-icon" />
+         								   	<span className="nav-link-inner--text d-lg-none ml-2">
+                							Credly
 											</span>
 										</NavLink>
 									</NavItem>
