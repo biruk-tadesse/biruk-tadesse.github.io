@@ -162,21 +162,24 @@ const Navigation = () => {
 									</NavItem>
 								)}
 								{socialLinks.credly && (
-									<NavItem>
-										<NavLink
+										<NavItem>
+											<NavLink
 											rel="noopener"
 											aria-label="Credly"
 											className="nav-link-icon"
 											href={socialLinks.credly}
 											target="_blank"
-										>
-											<span className="credly-icon"><strong>C</strong></span>
+											>
+											<span className="credly-icon" style={{ fontFamily: 'cursive' }}>
+												<strong>c</strong>
+											</span>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Credly
 											</span>
-										</NavLink>
-									</NavItem>
+											</NavLink>
+										</NavItem>
 								)}
+
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>
