@@ -161,6 +161,22 @@ const Navigation = () => {
 										</NavLink>
 									</NavItem>
 								)}
+								{socialLinks.twitter && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Credly"
+											className="nav-link-icon"
+											href={socialLinks.credly}
+											target="_blank"
+										>
+											<i className="fa fa-credly-square" />
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Credly
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>
