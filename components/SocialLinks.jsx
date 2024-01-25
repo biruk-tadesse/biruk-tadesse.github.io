@@ -91,6 +91,20 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
+			{socialLinks.credly && (
+				<Button
+					className="btn-icon-only rounded-circle"
+					style={{ backgroundColor: 'white', color: 'yellow' }}
+					href={socialLinks.credly}
+					target="_blank"
+					rel="noopener"
+					aria-label="Credly"
+				>
+					<span className="btn-inner--icon">
+					<strong style={{ color: 'yellow' }}>C</strong>
+					</span>
+				</Button>
+				)}
 			{socialLinks.geeksforgeeks && (
 				<Button
 					className="btn-icon-only rounded-circle ml-1"
