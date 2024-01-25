@@ -170,7 +170,7 @@ const Navigation = () => {
 											href={socialLinks.credly}
 											target="_blank"
 										>
-											<i className="fa fa-credly-square" />
+											<i className="fa fa-twitter-square" />
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Credly
 											</span>
