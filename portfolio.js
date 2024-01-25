@@ -10,6 +10,11 @@ export const greetings = {
   ],
   resumeLink: "https://drive.google.com/file/d/1cftbA67Kd742TqzNHIKS1aKahDVNYpg2/view?usp=sharing",
 };
+const sentences = greetings.sentences;
+
+sentences.forEach(sentence => {
+  console.log(sentence);
+});
 
 export const openSource = {
   githubUserName: "biruk-tadesse",
