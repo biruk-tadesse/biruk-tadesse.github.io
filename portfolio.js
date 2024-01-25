@@ -21,6 +21,7 @@ export const socialLinks = {
   twitter: "https://twitter.com/biruk_t_tefera",
   github: "https://github.com/biruk-tadesse",
   linkedin: "https://www.linkedin.com/in/biruktadesse/",
+  credly: "https://www.credly.com/users/biruk.tadesse",
 };
 
 export const skillsSection = {
@@ -165,10 +166,10 @@ export const SkillBars = [
 
 export const educationInfo = [
   {
-    schoolName: "BiT",
+    schoolName: "Bahir Dar University",
     subHeader: "Master of Science in Computer Science",
     duration: "November 2015 - March 2018",
-    desc: <a href="https://bit.bdu.edu.et/" target="_blank"><strong>Address</strong></a>,
+    desc: <a href="https://bdu.edu.et/" target="_blank"><strong>Address</strong></a>,
 
   },
 
@@ -295,7 +296,7 @@ export const showContactUs = true;
 export const seoData = {
   title: "Biruk Tadesse",
   description:
-    "an IT Specialist with diverse work experience, including software development, system administration, data analytics, lecturing, consulting, and providing IT support",
+    "A seasoned professional with a strong background in Computer Science, bringing a potent mix of academic achievements, practical experience, and communication skills to contribute significantly to high-impact projects.",
   author: "Biruk Tadesse",
   image:
     "https://avatars.githubusercontent.com/u/79448312?s=400&u=b82b117233e7267b7a636a16c548920b7af85d10&v=4",
