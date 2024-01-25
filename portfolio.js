@@ -236,6 +236,16 @@ export const feedbacks = [
     link: <a href="https://www.coursera.org/account/accomplishments/specialization/HH9SU4HJT794" target="_blank"><strong>View</strong></a>,
   },
   {
+    certificationName: "Securing API Servers",
+    issueDate: "18/01/2024",
+    link: <a href="https://www.credly.com/badges/8c0c7fe9-6c13-4097-8e1b-effb65065451/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
+    certificationName: "Network Technician",
+    issueDate: "23/01/2024",
+    link: <a href="https://www.credly.com/badges/6a8be9bc-5ba9-40a7-bd0a-ebd18a4075f1/public_url" target="_blank"><strong>View</strong></a>,
+  },
+  {
     certificationName: "AWS Cloud Solutions Architect Certificate",
     issueDate: "25/12/2023",
     link: <a href="https://www.coursera.org/account/accomplishments/specialization/QKXD5SVGXC7B" target="_blank"><strong>View</strong></a>,
