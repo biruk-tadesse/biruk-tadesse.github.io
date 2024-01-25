@@ -49,34 +49,6 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
-			{socialLinks.instagram && (
-				<Button
-					className="btn-icon-only rounded-circle ml-1"
-					color="instagram"
-					href={socialLinks.instagram}
-					target="_blank"
-					rel="noopener"
-					aria-label="Instagram"
-				>
-					<span className="btn-inner--icon">
-						<i className="fa fa-instagram" />
-					</span>
-				</Button>
-			)}
-			{socialLinks.facebook && (
-				<Button
-					className="btn-icon-only rounded-circle ml-1"
-					color="facebook"
-					href={socialLinks.facebook}
-					target="_blank"
-					rel="noopener"
-					aria-label="Facebook"
-				>
-					<span className="btn-inner--icon">
-						<i className="fa fa-facebook-square" />
-					</span>
-				</Button>
-			)}	
 			{socialLinks.twitter && (
 				<Button
 					className="btn-icon-only rounded-circle"
@@ -102,20 +74,6 @@ const SocialLinks = () => {
 				>
 					<span className="btn-inner--icon">
 						<i className="fa fa-credly" />
-					</span>
-				</Button>
-			)}
-			{socialLinks.leetcode && (
-				<Button
-					className="btn-icon-only rounded-circle ml-1"
-					color="#FF5733"
-					rel="noopener"
-					aria-label="Leetcode"
-					href={socialLinks.leetcode}
-					target="_blank"
-				>
-					<span className="btn-inner--icon">
-						<i className="fa fa-code" />
 					</span>
 				</Button>
 			)}
