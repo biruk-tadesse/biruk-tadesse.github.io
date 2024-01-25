@@ -94,7 +94,7 @@ const SocialLinks = () => {
 			{socialLinks.credly && (
 				<Button
 					className="btn-icon-only rounded-circle"
-					style={{ backgroundColor: 'yellow', color: 'white' }}
+					style={{ backgroundColor: 'darkgreen', color: 'white' }}
 					href={socialLinks.credly}
 					target="_blank"
 					rel="noopener"
