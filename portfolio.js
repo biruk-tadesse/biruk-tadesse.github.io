@@ -3,13 +3,13 @@ import emoji from "react-easy-emoji";
 export const greetings = {
   name: "Biruk Tadesse",
   title: "Hello, I'm Biruk",
-  description:
-    "I am a seasoned professional with a strong background in Computer Science, holding both a Bachelor's and Master's degree. "
-    + "I excel at meeting project deadlines and collaborating effectively in remote settings. "
-    + "My standout quality lies in my ability to communicate complex technical concepts clearly to both technical and non-technical stakeholders. "
-    + "I bring a potent mix of academic achievements, practical experience, and communication skills to contribute significantly to high-impact projects.",
-  resumeLink:
-    "https://drive.google.com/file/d/1cftbA67Kd742TqzNHIKS1aKahDVNYpg2/view?usp=sharing",
+  description: `
+    I am a seasoned professional with a strong background in Computer Science, holding both a Bachelor's and Master's degree.
+    I excel at meeting project deadlines and collaborating effectively in remote settings.
+    My standout quality lies in my ability to communicate complex technical concepts clearly to both technical and non-technical stakeholders.
+    I bring a potent mix of academic achievements, practical experience, and communication skills to contribute significantly to high-impact projects.
+  `,
+  resumeLink: "https://drive.google.com/file/d/1cftbA67Kd742TqzNHIKS1aKahDVNYpg2/view?usp=sharing",
 };
 
 export const openSource = {
