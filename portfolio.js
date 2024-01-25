@@ -21,7 +21,7 @@ export const socialLinks = {
   twitter: "https://twitter.com/biruk_t_tefera",
   github: "https://github.com/biruk-tadesse",
   linkedin: "https://www.linkedin.com/in/biruktadesse/",
-  credly: "https://www.linkedin.com/in/biruktadesse/",
+  credly: "https://www.credly.com/users/biruk.tadesse",
 };
 
 export const skillsSection = {
