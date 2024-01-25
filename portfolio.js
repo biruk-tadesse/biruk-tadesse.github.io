@@ -16,10 +16,12 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
+  facebook: "https://www.facebook.com/biruk.tadesse.tefera",
+  instagram: "https://www.instagram.com/biruk.t.tefera/",
   twitter: "https://twitter.com/biruk_t_tefera",
   github: "https://github.com/biruk-tadesse",
   linkedin: "https://www.linkedin.com/in/biruktadesse/",
-  credly: "https://www.credly.com/users/biruk.tadesse",
+  credly: "https://www.linkedin.com/in/biruktadesse/",
 };
 
 export const skillsSection = {
