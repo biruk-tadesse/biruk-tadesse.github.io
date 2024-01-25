@@ -81,6 +81,38 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
+								{socialLinks.facebook && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Facebook"
+											className="nav-link-icon"
+											href={socialLinks.facebook}
+											target="_blank"
+										>
+											<i className="fa fa-facebook-square" />
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Facebook
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
+								{socialLinks.instagram && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Instagram"
+											className="nav-link-icon"
+											href={socialLinks.instagram}
+											target="_blank"
+										>
+											<i className="fa fa-instagram" />
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Instagram
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
 								{socialLinks.github && (
 									<NavItem>
 										<NavLink
@@ -139,8 +171,8 @@ const Navigation = () => {
 											target="_blank"
 										>
 											<span className="credly-icon"><strong>C</strong></span>
-            								<span className="nav-link-inner--text d-lg-none ml-2">
-                							Credly
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Credly
 											</span>
 										</NavLink>
 									</NavItem>
