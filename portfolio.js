@@ -1,42 +1,12 @@
 import emoji from "react-easy-emoji";
-import React, { useState, useEffect } from "react";
-import { useSpring, animated } from "react-spring";
-
-export const AnimatedDescription = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  const descriptionProps = useSpring({
-    opacity: isVisible ? 1 : 0,
-    transform: isVisible ? "translateY(0)" : "translateY(20px)",
-  });
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
-  return (
-    <>
-      <animated.p style={descriptionProps}>
-        I am a seasoned professional with a strong background in Computer Science, holding both a Bachelor's and Master's degree.
-      </animated.p>
-      <animated.p style={descriptionProps}>
-        I excel at meeting project deadlines and collaborating effectively in remote settings.
-      </animated.p>
-      <animated.p style={descriptionProps}>
-        My standout quality lies in my ability to communicate complex technical concepts clearly to both technical and non-technical stakeholders.
-      </animated.p>
-      <animated.p style={descriptionProps}>
-        I bring a potent mix of academic achievements, practical experience, and communication skills to contribute significantly to high-impact projects.
-      </animated.p>
-    </>
-  );
-};
 
 export const greetings = {
   name: "Biruk Tadesse",
   title: "Hello, I'm Biruk",
-  description: <AnimatedDescription />,
-  resumeLink: "https://drive.google.com/file/d/1cftbA67Kd742TqzNHIKS1aKahDVNYpg2/view?usp=sharing",
+  description:
+    "I am a seasoned professional with a strong background in Computer Science, holding both a Bachelor's and Master's degree. I excel at meeting project deadlines and collaborating effectively in remote settings. My standout quality lies in my ability to communicate complex technical concepts clearly to both technical and non-technical stakeholders. I bring a potent mix of academic achievements, practical experience, and communication skills to contribute significantly to high-impact projects.",
+  resumeLink:
+    "https://drive.google.com/file/d/1cftbA67Kd742TqzNHIKS1aKahDVNYpg2/view?usp=sharing",
 };
 
 export const openSource = {
