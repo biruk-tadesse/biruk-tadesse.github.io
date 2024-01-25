@@ -91,13 +91,13 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
-			{socialLinks.geeksforgeeks && (
+			{socialLinks.credly && (
 				<Button
 					className="btn-icon-only rounded-circle ml-1"
 					color="success"
 					rel="noopener"
 					aria-label="GFG"
-					href={socialLinks.geeksforgeeks}
+					href={socialLinks.credly}
 					target="_blank"
 				>
 					<span className="btn-inner--icon">
