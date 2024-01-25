@@ -101,7 +101,7 @@ const SocialLinks = () => {
 					target="_blank"
 				>
 					<span className="btn-inner--icon">
-						<i className="fa fa-code" />
+						<i className="fa fa-credly" />
 					</span>
 				</Button>
 			)}
