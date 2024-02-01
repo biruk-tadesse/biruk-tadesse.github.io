@@ -299,6 +299,6 @@ export const seoData = {
     "A seasoned professional with a strong background in Computer Science, bringing a potent mix of academic achievements, practical experience, and communication skills to contribute significantly to high-impact projects.",
   author: "Biruk Tadesse",
   image:
-    "https://avatars.githubusercontent.com/u/79448312?s=400&u=b82b117233e7267b7a636a16c548920b7af85d10&v=4",
+    "https://avatars.githubusercontent.com/u/101355620?v=4",
   keywords: ["Biruk", "Biruk Tadesse", "@biruk-tadesse"],
 };
