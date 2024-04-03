@@ -6,7 +6,7 @@ export const greetings = {
   description:
     "I am a seasoned professional with a strong background in Computer Science, bringing a potent mix of academic achievements, practical experience, and communication skills to contribute significantly to high-impact projects.",
   resumeLink:
-    "https://drive.google.com/file/d/1cftbA67Kd742TqzNHIKS1aKahDVNYpg2/view?usp=sharing",
+    "https://drive.google.com/file/d/1G2s_ORqmyxKe3Y0ufdalMg6H0L2XCzGF/view?usp=sharing",
 };
 
 export const openSource = {
