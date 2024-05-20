@@ -206,16 +206,19 @@ export const feedbacks = [
     certificationName: "Meta Database Engineer Certificate",
     issueDate: "21/12/2023",
     link: <a href="https://www.credly.com/badges/52b705b6-2eeb-4dab-9c4a-067a015a0c11/public_url" target="_blank"><strong>View</strong></a>,
+    logo: "https://images.credly.com/size/340x340/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png",
   },
   {
     certificationName: "Google Project Management Certificate",
     issueDate: "08/12/2023",
     link: <a href="https://www.credly.com/badges/3a52fe9f-da36-493e-8f18-c1b89b5d198d/public_url" target="_blank"><strong>View</strong></a>,
+    logo: "https://images.credly.com/size/340x340/images/771cff46-3573-4d12-bfd8-528745f00957/GCC_badge_PGM_1000x1000.png",
   },
   {
     certificationName: "Google Data Analytics Certificate",
     issueDate: "17/12/2023",
     link: <a href="https://www.credly.com/badges/27c1b82e-e1b7-4681-9c5b-4e5ffe97d72c/public_url" target="_blank"><strong>View</strong></a>,
+    logo: "https://images.credly.com/size/340x340/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png",
   },
   {
     certificationName: "Google IT Support Certificate",
