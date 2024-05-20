@@ -24,11 +24,7 @@ const ExperienceCard = ({ data }) => {
 							src={data.companylogo}
 							style={{
 								objectFit: "cover",
-								left: 0,
-								right: 0,
-								top: "7rem",
-								marginLeft: "auto",
-								marginRight: "auto",
+								margin: "7rem auto 0",
 								width: "8rem",
 								height: "8rem",
 								borderRadius: "50%",
@@ -36,6 +32,7 @@ const ExperienceCard = ({ data }) => {
 							className="shadow mb-3"
 							alt={data.companylogo}
 						/>
+
 						<CardTitle tag="h4" className="mb-2">
 							{data.company}
 						</CardTitle>
