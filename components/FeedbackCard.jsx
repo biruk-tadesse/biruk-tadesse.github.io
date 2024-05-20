@@ -29,7 +29,6 @@ const FeedbackCard = ({ data }) => {
 							<h5 className="mb-2">{data.certificationName}</h5>
 							<p className="mb-2">{data.issueDate}</p>
               				<p className="mb-2">{data.link}</p>
-							<p className="mb-2">{data.logo}</p>
 						</div>
 					</div>
 				</CardBody>
