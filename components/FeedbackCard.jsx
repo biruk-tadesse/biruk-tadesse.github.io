@@ -23,9 +23,7 @@ const FeedbackCard = ({ data }) => {
           <div className="text-center">
             <h5 className="mb-2">{data.certificationName}</h5>
             <p className="mb-2">{data.issueDate}</p>
-            <a href={data.link} target="_blank" rel="noopener noreferrer">
-              View Certificate
-            </a>
+			<p className="mb-2">{data.link}</p>
           </div>
         </CardBody>
       </Card>
