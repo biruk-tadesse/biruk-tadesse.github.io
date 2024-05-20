@@ -193,17 +193,7 @@ export const projects = [
   },
 ];
 
-
 export const feedbacks = [
-  {
-    certificationName: "Meta Full-Stack Engineer Certificate",
-    issueDate: "11/01/2024",
-    link: <a href="https://www.credly.com/badges/98f07028-044a-4b02-8cbc-2b0c6193b0e9/public_url" target="_blank"><strong>View</strong></a>,
-    logo: "https://images.credly.com/size/340x340/images/997d4586-e7b2-4174-9c76-5c7304953e2c/image.png",
-  },
-];
-
-/*export const feedbacks = [
 
 
   {
@@ -299,7 +289,6 @@ export const feedbacks = [
   },
 
 ];
-*/
 
 // option to hide or show the ContactUs component
 export const showContactUs = true;
