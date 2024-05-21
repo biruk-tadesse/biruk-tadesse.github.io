@@ -22,8 +22,11 @@ const FeedbackCard = ({ data }) => {
           </div>
           <div className="text-center">
             <h5 className="mb-2">{data.certificationName}</h5>
-            <p className="mb-2">{data.issueDate}</p>
-			<p className="mb-2">{data.link}</p>
+            <h6>{data.subHeader}</h6>
+							<Badge color="info" className="mr-1">
+								{data.issueDate}
+							</Badge>
+			      <p className="mb-2">{data.link}</p>
           </div>
         </CardBody>
       </Card>
