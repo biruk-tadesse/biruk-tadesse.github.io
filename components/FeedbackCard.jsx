@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody } from "reactstrap";
+import { Card, CardBody, Badge } from "reactstrap";
 import { Fade } from "react-reveal";
 
 const FeedbackCard = ({ data }) => {
@@ -23,10 +23,10 @@ const FeedbackCard = ({ data }) => {
           <div className="text-center">
             <h5 className="mb-2">{data.certificationName}</h5>
             <h6>{data.subHeader}</h6>
-							<Badge color="info" className="mr-1">
+            <Badge color="info" className="mr-1">
 								{data.issueDate}
 							</Badge>
-			      <p className="mb-2">{data.link}</p>
+            <p className="mb-2">{data.link}</p>
           </div>
         </CardBody>
       </Card>
