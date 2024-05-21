@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, Badge } from "reactstrap";
+
 import {
 	Card,
 	CardBody,
@@ -39,10 +39,7 @@ const ExperienceCard = ({ data }) => {
 						<CardSubtitle tag="h5" className="mb-2">
 							{data.role}
 						</CardSubtitle>
-						<h5 className="mb-2">{data.date}</h5>
-            			<Badge color="info" className="mr-1">
-								{data.date}
-							</Badge>
+						<CardSubtitle>{data.date}</CardSubtitle>
 						<CardText
 							tag="div"
 							className="mb-2"
