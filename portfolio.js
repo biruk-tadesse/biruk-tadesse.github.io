@@ -170,6 +170,7 @@ export const educationInfo = [
     subHeader: "Master of Science in Computer Science",
     duration: "November 2015 - March 2018",
     desc: <a href="https://bdu.edu.et/" target="_blank"><strong>Address</strong></a>,
+    logo: "https://media.licdn.com/dms/image/C4D0BAQGoYqVEy7394Q/company-logo_200_200/0/1668082956385/bahir_dar_university_logo?e=1724284800&v=beta&t=QMV7lmwU98f2G4hDxEo_YBinuJsrFuMCinCrikgghe8",
 
   },
 
