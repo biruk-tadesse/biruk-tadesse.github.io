@@ -1,40 +1,50 @@
 import React from "react";
-import { Card, CardBody, Badge } from "reactstrap";
+
+import {
+	Card,
+	CardBody,
+	CardTitle,
+	CardSubtitle,
+	CardText,
+	Col,
+} from "reactstrap";
 
 import { Fade } from "react-reveal";
 
 const ExperienceCard = ({ data }) => {
 	return (
-		<Fade left duration={2000} >
-			<Card className="card-lift--hover shadow mt-4">
-				<CardBody>
-					<div className="text-center mb-3">
+		<Col lg="6">
+			<Fade left duration={2000}>
+				<Card
+					style={{ flex: 1 }}
+					className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
+				>
+					<CardBody className="">
 						<img
 							src={data.companylogo}
 							style={{
 								objectFit: "cover",
+								margin: "7rem auto 0",
 								width: "8rem",
 								height: "8rem",
 								borderRadius: "50%",
 							}}
-							className="shadow"
+							className="shadow mb-3"
 							alt={data.companylogo}
-							/>
-							</div>
-							<div className="text-center">
-							<h5 className="mb-2">
-								{data.company}
-							</h5>
-								<h6>{data.subHeader}</h6>
-							<Badge color="info" className="mr-1">
-								{data.duration}
-							</Badge>
-							{ data.grade && (
-								<Badge color="primary" className="mr-1">
-									{data.grade}
-								</Badge>
-							)}
-							<p className="mb-2">{data.desc}</p>
+						/>
+
+						<CardTitle tag="h4" className="mb-2">
+							{data.company}
+						</CardTitle>
+						<CardSubtitle tag="h5" className="mb-2">
+							{data.role}
+						</CardSubtitle>
+						<CardSubtitle>{data.date}</CardSubtitle>
+						<CardText
+							tag="div"
+							className="mb-2"
+						>
+							{data.desc}
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
@@ -42,12 +52,12 @@ const ExperienceCard = ({ data }) => {
 									  })
 									: null}
 							</ul>
-						</div>
-				</CardBody>
-			</Card>
-		</Fade>
+						</CardText>
+					</CardBody>
+				</Card>
+			</Fade>
+		</Col>
 	);
 };
 
 export default ExperienceCard;
-
