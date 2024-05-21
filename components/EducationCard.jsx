@@ -11,7 +11,7 @@ const EducationCard = ({ education }) => {
 					<div className="d-flex px-3">
 						<div className="pl-4">
 						<img
-							src={data.logo}
+							src={education.logo}
 							style={{
 								objectFit: "cover",
 								width: "8rem",
