@@ -10,6 +10,19 @@ const EducationCard = ({ education }) => {
 				<CardBody>
 					<div className="d-flex px-3">
 						<div className="pl-4">
+						<img
+							src={data.logo}
+							style={{
+								objectFit: "cover",
+								width: "8rem",
+								height: "8rem",
+								borderRadius: "50%",
+							}}
+							className="shadow"
+							alt={education.schoolName}
+							/>
+							</div>
+							<div className="text-center">
 							<h5 className="text-info">
 								{education.schoolName}
 							</h5>
