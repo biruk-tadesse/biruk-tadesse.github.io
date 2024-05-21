@@ -8,8 +8,7 @@ const EducationCard = ({ education }) => {
 		<Fade left duration={2000} >
 			<Card className="card-lift--hover shadow mt-4">
 				<CardBody>
-					<div className="d-flex px-3">
-						<div className="pl-4">
+					<div className="text-center mb-3">
 						<img
 							src={education.logo}
 							style={{
@@ -23,7 +22,7 @@ const EducationCard = ({ education }) => {
 							/>
 							</div>
 							<div className="text-center">
-							<h5 className="text-info">
+							<h5 className="mb-2">
 								{education.schoolName}
 							</h5>
 								<h6>{education.subHeader}</h6>
@@ -44,7 +43,6 @@ const EducationCard = ({ education }) => {
 									: null}
 							</ul>
 						</div>
-					</div>
 				</CardBody>
 			</Card>
 		</Fade>
