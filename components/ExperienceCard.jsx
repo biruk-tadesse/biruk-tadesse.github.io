@@ -40,6 +40,9 @@ const ExperienceCard = ({ data }) => {
 							{data.role}
 						</CardSubtitle>
 						<CardSubtitle>{data.date}</CardSubtitle>
+            			<Badge color="info" className="mr-1">
+								{data.date}
+							</Badge>
 						<CardText
 							tag="div"
 							className="mb-2"
