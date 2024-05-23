@@ -18,8 +18,8 @@ const ExperienceCard = ({ data }) => {
 				<Card
 					style={{ flex: 1 }}
 					className="card-lift--hover shadow mt-4"
-				>
-					<CardBody className="text-center mb-3">
+				><CardBody>
+					<div className="text-center mb-3">
 						<img
 							src={data.companylogo}
 							style={{
@@ -31,7 +31,8 @@ const ExperienceCard = ({ data }) => {
 							className="shadow mb-3"
 							alt={data.companylogo}
 						/>
-
+						</div>
+						<div>
 						<CardTitle tag="h4" className="mb-2">
 							{data.company}
 						</CardTitle>
@@ -52,6 +53,7 @@ const ExperienceCard = ({ data }) => {
 									: null}
 							</ul>
 						</CardText>
+						</div>
 					</CardBody>
 				</Card>
 			</Fade>
