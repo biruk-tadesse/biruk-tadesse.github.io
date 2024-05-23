@@ -13,7 +13,7 @@ import { Fade } from "react-reveal";
 
 const ExperienceCard = ({ data }) => {
 	return (
-		<Col lg="6">
+		<Col lg="4">
 			<Fade left duration={2000}>
 				<Card
 					style={{ flex: 1 }}
