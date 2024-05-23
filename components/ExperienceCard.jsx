@@ -1,55 +1,36 @@
 import React from "react";
-
-import {
-	Card,
-	Badge,
-	CardBody,
-	CardTitle,
-	CardSubtitle,
-	CardText,
-	Col,
-} from "reactstrap";
+import { Card, CardBody, Badge } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
 const ExperienceCard = ({ data }) => {
 	return (
-		<Col lg="6">
-			<Fade left duration={2000}>
-				<Card
-					style={{ flex: 1 }}
-					className="card-lift--hover shadow mt-4"
-				><CardBody>
+		<Fade left duration={2000} >
+			<Card className="card-lift--hover shadow mt-4">
+				<CardBody>
 					<div className="text-center mb-3">
 						<img
-							src={data.companylogo}
+							src={data.logo}
 							style={{
 								objectFit: "cover",
 								width: "8rem",
 								height: "8rem",
 								borderRadius: "50%",
 							}}
-							className="shadow mb-3"
+							className="shadow"
 							alt={data.companylogo}
-						/>
-						</div>
-						<div className="text-center">
-						<CardTitle tag="h4" className="mb-2">
-							{data.company}
-						</CardTitle>
-						<CardSubtitle tag="h5" className="mb-2">
-							{data.role}
-						</CardSubtitle>
-						
-						<h6>{data.subHeader}</h6>
+							/>
+							</div>
+							<div className="text-center">
+							<h5 className="mb-2">
+								{data.company}
+							</h5>
+								<h6>{data.role}</h6>
 							<Badge color="info" className="mr-1">
 								{data.date}
 							</Badge>
-						<CardText
-							tag="div"
-							className="mb-2"
-						>
-							<p className="mb-2">{data.desc}</p>
+							
+							<p className="mb-2">{education.desc}</p>
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
@@ -57,12 +38,10 @@ const ExperienceCard = ({ data }) => {
 									  })
 									: null}
 							</ul>
-						</CardText>
 						</div>
-					</CardBody>
-				</Card>
-			</Fade>
-		</Col>
+				</CardBody>
+			</Card>
+		</Fade>
 	);
 };
 
