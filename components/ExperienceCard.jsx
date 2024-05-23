@@ -32,14 +32,18 @@ const ExperienceCard = ({ data }) => {
 							alt={data.companylogo}
 						/>
 						</div>
-						<div>
+						<div className="text-center">
 						<CardTitle tag="h4" className="mb-2">
 							{data.company}
 						</CardTitle>
 						<CardSubtitle tag="h5" className="mb-2">
 							{data.role}
 						</CardSubtitle>
-						<CardSubtitle>{data.date}</CardSubtitle>
+						
+						<h6>{data.subHeader}</h6>
+							<Badge color="info" className="mr-1">
+								{data.date}
+							</Badge>
 						<CardText
 							tag="div"
 							className="mb-2"
