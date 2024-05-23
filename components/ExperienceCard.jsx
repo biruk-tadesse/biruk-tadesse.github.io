@@ -1,6 +1,4 @@
 import React from "react";
-import { Card, CardBody, Badge } from "reactstrap";
-
 
 import {
 	Card,
@@ -41,16 +39,12 @@ const ExperienceCard = ({ data }) => {
 						<CardSubtitle tag="h5" className="mb-2">
 							{data.role}
 						</CardSubtitle>
-						<CardSubtitle>
-						<Badge color="info" className="mr-1">
-								{data.date}
-							</Badge>
-						</CardSubtitle>
+						<CardSubtitle>{data.date}</CardSubtitle>
 						<CardText
 							tag="div"
 							className="mb-2"
 						>
-							{data.desc}
+							<p className="mb-2">{data.desc}</p>
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
