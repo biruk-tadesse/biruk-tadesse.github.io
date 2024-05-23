@@ -24,7 +24,6 @@ const ExperienceCard = ({ data }) => {
 							src={data.companylogo}
 							style={{
 								objectFit: "cover",
-								margin: "7rem auto 0",
 								width: "8rem",
 								height: "8rem",
 								borderRadius: "50%",
