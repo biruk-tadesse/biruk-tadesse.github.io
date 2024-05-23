@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardBody, Badge } from "reactstrap";
 
+
 import {
 	Card,
 	CardBody,
@@ -25,6 +26,7 @@ const ExperienceCard = ({ data }) => {
 							src={data.companylogo}
 							style={{
 								objectFit: "cover",
+								margin: "7rem auto 0",
 								width: "8rem",
 								height: "8rem",
 								borderRadius: "50%",
@@ -47,7 +49,7 @@ const ExperienceCard = ({ data }) => {
 							tag="div"
 							className="mb-2"
 						>
-							<p className="mb-2">{data.desc}</p>
+							{data.desc}
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
