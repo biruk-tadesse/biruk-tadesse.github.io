@@ -13,13 +13,13 @@ import { Fade } from "react-reveal";
 
 const ExperienceCard = ({ data }) => {
 	return (
-		<Col lg="4">
+		<Col lg="6">
 			<Fade left duration={2000}>
 				<Card
 					style={{ flex: 1 }}
-					className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
+					className="card-lift--hover shadow mt-4"
 				>
-					<CardBody className="">
+					<CardBody className="text-center mb-3">
 						<img
 							src={data.companylogo}
 							style={{
