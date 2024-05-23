@@ -26,8 +26,6 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle:
-    "FULL STACK DEVELOPER",
   data: [
     {
       title: "Full Stack Development",
