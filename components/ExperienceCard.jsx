@@ -30,7 +30,7 @@ const ExperienceCard = ({ data }) => {
 								{data.date}
 							</Badge>
 							
-							<p className="mb-2">{education.desc}</p>
+							<p className="mb-2">{data.desc}</p>
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
