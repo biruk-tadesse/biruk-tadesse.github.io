@@ -97,8 +97,8 @@
   
   .cert-list img,
   .social-list img {
-    width: 50px;  /* Adjusted size to match profile picture */
-    height: 50px; /* Adjusted size to match profile picture */
+    width: 50px; /* Fixed size for certificate logos */
+    height: 50px; /* Fixed size for certificate logos */
     object-fit: contain;
     border-radius: 5px;
   }
