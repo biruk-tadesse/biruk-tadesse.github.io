@@ -3,132 +3,61 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
-  }
-  
-  
-  header {
+}
+
+header {
     background: #0a192f;
     color: #fff;
     padding: 40px 20px;
     border-radius: 10px;
     margin-bottom: 30px;
-  }
-  .resume-link {
+}
+
+.resume-link {
     font-weight: bold;
     color: #0073e6;
     text-decoration: none;
-  }
-  
-  .resume-link:hover {
+}
+
+.resume-link:hover {
     text-decoration: underline;
-  }
-  
-  .edu-list, .work-list {
+}
+
+.edu-list, .work-list, .cert-list {
     list-style-type: none;
     padding-left: 0;
-  }
-  
-  .edu-list li, .work-list li {
-    margin-bottom: 1em;
-  }
-  
-  .profile {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    text-align: left;
-  }
-  
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  header h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    white-space: pre-line; /* Allows IT Professional on a new line */
-  }
-  
-  header p {
-    max-width: 700px;
-    margin-bottom: 20px;
-    font-size: 1.1rem;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #00bcd4;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.3s ease;
-  }
-  
-  .btn:hover {
-    background: #0097a7;
-  }
-  
-  section {
-    background: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  section h2 {
-    color: #0a192f;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #00bcd4;
-    padding-bottom: 5px;
-  }
-  
-  .cert-list,
-  .social-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .cert-list li {
+}
+
+.edu-list li, .work-list li, .cert-list li {
     margin: 10px 0;
     display: flex;
     align-items: flex-start;
     gap: 15px;
     padding: 10px 0;
-  }
-  
-  .cert-list img {
+}
+
+.edu-list img, .work-list img, .cert-list img {
     width: 50px;
     height: 50px;
     object-fit: contain;
     border-radius: 5px;
     flex-shrink: 0;
-  }
-  
-  .cert-list li div {
+}
+
+.edu-list li div, .work-list li div, .cert-list li div {
     display: flex;
     flex-direction: column;
-  }
-  
-  .cert-link {
+}
+
+.edu-link, .work-link, .cert-link {
     margin-top: 5px;
     display: inline-block;
     background-color: #00bcd4;
@@ -138,63 +67,128 @@
     text-decoration: none;
     font-size: 0.9rem;
     width: fit-content;
-  }
-  
-  .cert-link:hover {
+}
+
+.edu-link:hover, .work-link:hover, .cert-link:hover {
     background-color: #0097a7;
-  }
-  
-  .social-list li {
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    white-space: pre-line; /* Allows IT Professional on a new line */
+}
+
+header p {
+    max-width: 700px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0097a7;
+}
+
+section {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #0a192f;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00bcd4;
+    padding-bottom: 5px;
+}
+
+.social-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-list li {
     display: inline-block;
     margin-right: 15px;
-  }
-  
-  .social-list img {
+}
+
+.social-list img {
     width: 32px;
     height: 32px;
     object-fit: contain;
     border-radius: 5px;
-  }
-  
-  a {
+}
+
+a {
     color: #00bcd4;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  footer {
+}
+
+footer {
     background: #0a192f;
     color: #fff;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     header h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     header p {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
+
     .btn {
-      font-size: 0.9rem;
-      padding: 8px 16px;
+        font-size: 0.9rem;
+        padding: 8px 16px;
     }
-  
+
     section {
-      padding: 15px;
+        padding: 15px;
     }
-  
+
     .profile {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-  }
- 
+}
