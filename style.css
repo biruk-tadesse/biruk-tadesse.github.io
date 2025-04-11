@@ -96,8 +96,8 @@
   }
   
   .cert-list img {
-    width: 10px;
-    height: 10px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
     border-radius: 5px;
   }
