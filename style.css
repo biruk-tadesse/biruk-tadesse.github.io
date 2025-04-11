@@ -95,10 +95,16 @@
     gap: 10px;
   }
   
-  .cert-list img,
+  .cert-list img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
   .social-list img {
-    width: 40px; /* Smaller size for certificates */
-    height: 40px; /* Smaller size for certificates */
+    width: 32px;
+    height: 32px;
     object-fit: contain;
     border-radius: 5px;
   }
