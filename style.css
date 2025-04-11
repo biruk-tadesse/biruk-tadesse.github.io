@@ -208,3 +208,20 @@ footer {
         text-align: center;
     }
 }
+
+/* Download Resume button styling */
+.download-resume {
+    margin-top: 5px;
+    display: inline-block;
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    width: fit-content;
+}
+
+.download-resume:hover {
+    background-color: #0097a7;
+}
